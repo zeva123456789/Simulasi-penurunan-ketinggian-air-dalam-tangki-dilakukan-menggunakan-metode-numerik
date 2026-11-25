@@ -23,7 +23,7 @@ while t <= 10:
     LH.append(H)
     Lt.append(t)
     dh_dt = -A_lubang/A_tangki*v
-    H = H + dh_dt*h/2
+    H = H + dh_dt*h
     t += h
 
 plt.plot(Lt, LH, "b", label="Ketinggian air terhadap waktu")
